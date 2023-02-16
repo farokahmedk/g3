@@ -1,0 +1,8 @@
+{
+  "livePreview.defaultPreviewPath": "/index.html",
+  "files.autoSave": "onFocusChange",
+  "json.format.keepLines": true,
+  "html.format.contentUnformatted": "pre",
+  "prettier.requireConfig": true,
+  "editor.fontSize": 17
+}

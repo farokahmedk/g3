@@ -1,0 +1,54 @@
+/***** google fonts *****/
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap");
+/***** End google fonts *****/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/***** utilities *****/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+/***** End utilities *****/
+
+/***** header *****/
+.main-header-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.logo h2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.main-menu {
+  justify-self: right;
+}
+
+.main-menu ul {
+  display: flex;
+  list-style: none;
+  column-gap: 50px;
+}
+
+.main-menu ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+}
+
+/***** End header *****/
